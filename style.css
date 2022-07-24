@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s ease-in-out;
+}
+body{
+    background-color: #ffd845;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+text-align: center;
+padding: 3rem 0;
+}
+.btn-group{
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: .7rem 3rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.fa-angle-down{
+    margin-left: 1rem;
+
+}
+.fa-search{
+    margin-left: 3rem;
+    color: cadetblue;
+}
+.card-group{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 1.2rem;
+}
+.card-header{
+    padding: 2rem 0;
+    border-bottom: 2px solid #000000;
+}
+.for-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1.5rem;
+    flex-wrap: wrap;
+}
+.fa-heart{
+    color: cadetblue;
+    margin-top: .7rem;
+    font-size: 1.3rem;
+}
+.product-weight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+padding: 1rem;
+flex-wrap: wrap;
+}
+.desc{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
